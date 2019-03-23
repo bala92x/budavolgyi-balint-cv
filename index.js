@@ -3,6 +3,7 @@
 
 const inquirer = require('inquirer');
 const chalk = require('chalk');
+const moment = require('moment');
 
 const resume = require('./resume.js');
 
@@ -20,9 +21,14 @@ const wrap = (color, toWrap) => {
     console.log(rule);
 };
 const main = () => {
-    const about = `${cyan('Hello there!')} My name is ${cyan('Budavölgyi Bálint')}, I am a junior web developer with 3 years of experience. Welcome to my ${cyan('CV')}!
+    const about = `${cyan('Hello there!')} My name is ${cyan('Budavölgyi Bálint')}.
     
-    `;
+I am a ${moment().diff('1992-05-07', 'years')} years old junior web developer with almost ${moment().diff('2017-01-01', 'years') + 1} years of experience in planning, building, and maintaining
+modern websites, webshops, mobile and web applications.
+    
+Welcome to my ${cyan('CV')}!
+    
+`;
 
     wrap(green, () => about);
     resumeHandler();
@@ -41,7 +47,7 @@ const formatInfo = (info, depth = 0, needsKey = false) => {
             const arrow = `${red('=>')}`;
             const item = index === 0 ? cyan(value) : value;
             const lineBreak = `\n${index === array.length - 1 ? '\n' : '' }`;
-            
+
             return `${indentation}${keyStr} ${arrow} ${item} ${lineBreak}`;
         }
     });
