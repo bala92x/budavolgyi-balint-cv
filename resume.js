@@ -19,7 +19,7 @@ const resume = {
     "Education": [
         {
             "name": "Web development and online marketing certifications",
-            "url": "https: //github.com/bala92x/certs"
+            "url": "https://github.com/bala92x/certs"
         },
         {
             "name": "English language exam",
