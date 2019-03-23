@@ -1,29 +1,32 @@
 {
-  "name": "budavolgyi-balint-cv",
-  "version": "1.0.0",
-  "description": "My cli npm package CV",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bala92x/budavolgyi-balint-cv.git"
-  },
-  "keywords": [
-    "cv",
-    "resume",
-    "cli"
-  ],
-  "author": "Budavölgyi Bálint",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bala92x/budavolgyi-balint-cv/issues"
-  },
-  "homepage": "https://github.com/bala92x/budavolgyi-balint-cv#readme",
-  "dependencies": {
-    "chalk": "^2.4.2",
-    "inquirer": "^6.2.2",
-    "moment": "^2.24.0"
-  }
+    "name": "budavolgyi-balint-cv",
+    "version": "1.0.0",
+    "description": "My cli npm package CV",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "bin": {
+        "budavolgyi-balint-cv": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bala92x/budavolgyi-balint-cv.git"
+    },
+    "keywords": [
+        "cv",
+        "resume",
+        "cli"
+    ],
+    "author": "Budavölgyi Bálint",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bala92x/budavolgyi-balint-cv/issues"
+    },
+    "homepage": "https://github.com/bala92x/budavolgyi-balint-cv#readme",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "inquirer": "^6.2.2",
+        "moment": "^2.24.0"
+    }
 }
