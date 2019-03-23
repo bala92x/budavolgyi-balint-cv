@@ -45,6 +45,11 @@ const resume = {
             "role": "Web Developer",
             "since": "Since 2017 August",
             "url": "https://kameleonline.hu"
+        },
+        {
+            "company": "Own side projects",
+            "since": "Since 2017 January",
+            "url": "https://github.com/bala92x/"
         }
     ],
     "Tech Stack": [
