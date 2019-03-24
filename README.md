@@ -72,3 +72,5 @@ Welcome to my CV!
 - Name: Budavölgyi Bálint
 - Email: budavolgyi.balint@gmail.com
 - Former CV (hungarian): [http://cv.balavel.hu/](http://cv.balavel.hu/)
+
+### Thank you for your time! I look forward to hearing from you soon.
