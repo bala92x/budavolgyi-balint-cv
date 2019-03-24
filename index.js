@@ -5,14 +5,15 @@ const inquirer = require('inquirer');
 const chalk = require('chalk');
 const moment = require('moment');
 
-const resume = require('./resume.js');
+const resume = require('./src/resume');
+const photo = require('./src/photo');
 
 const { green, red, cyan } = chalk.bold;
 const resumePrompts = {
     type: 'list',
     name: 'resumeOptions',
     message: 'What are you interested in?',
-    choices: [...Object.keys(resume), 'Exit']
+    choices: [...Object.keys(resume), 'Photo', 'Exit']
 };
 const wrap = (color, toWrap) => {
     const rule = color('--------------------------------------\n\n');
@@ -58,6 +59,10 @@ const resumeHandler = () => {
     inquirer.prompt(resumePrompts).then(answer => {
         if (answer.resumeOptions === 'Exit') {
             return;
+        }
+
+        if (answer.resumeOptions === 'Photo') {
+            return wrap(green, () => green(photo));
         }
 
         const content = resume[answer.resumeOptions]
