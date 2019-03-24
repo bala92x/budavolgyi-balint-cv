@@ -93,6 +93,14 @@ const resume = {
                 {
                     "name": "Handlebars",
                     "experience": getDiff('2018-12-05')
+                },
+                {
+                    "name": "Mocha",
+                    "experience": getDiff('2018-12-10')
+                },
+                {
+                    "name": "Jest",
+                    "experience": getDiff('2019-01-05')
                 }
             ]
         },
@@ -138,6 +146,71 @@ const resume = {
                 {
                     "name": "SCSS",
                     "experience": getDiff('2018-10-10')
+                }
+            ]
+        }
+    ],
+    "Portfolio": [
+        {
+            "name": "Open Source",
+            "sub-portfolios": [
+                {
+                    "name": "chat-app",
+                    "description": "Simple Node.js based chat app with socket.io integration",
+                    "source": "https://github.com/bala92x/chat-app",
+                    "url": "https://brit-tudosok-chat.herokuapp.com" 
+                },
+                {
+                    "name": "score-keeper",
+                    "description": "Simple score keeper app with Meteor and React",
+                    "source": "https://github.com/bala92x/score-keeper",
+                    "url": "https://bala-score-keeper.herokuapp.com"
+                },
+                {
+                    "name": "cli-weather-app",
+                    "description": "Simple Node.js cli weather app, that gets temperature information about the given location",
+                    "source": "https://github.com/bala92x/cli-weather-app",
+                },
+                {
+                    "name": "task-manager",
+                    "description": "Node.js task manager API with JWT authorization",
+                    "source": "https://github.com/bala92x/task-manager",
+                    "url": "https://bala-task-manager.herokuapp.com"
+                },
+                {
+                    "more": "More open source projects: https://github.com/bala92x"
+                }
+            ],
+        },
+        {
+            "name": "Projects I contributed to",
+            "sub-portfolios": [
+                {
+                    "name": "Agora Lakópark",
+                    "description": "Website of an 11 building residential park, with complex administration backend",
+                    "url": "https://agorapark.hu",
+                    "framework": "Laravel 5.3"
+                },
+                {
+                    "name": "Pannon Oktatási Központ",
+                    "description": "Website of an educational institution, with administration backend and the opportunity of signing up for courses",
+                    "url": "https://www.oktatasioldal.hu",
+                    "framework": "Laravel 5.4"
+                },
+                {
+                    "name": "Auto Finesse webshop",
+                    "description": "Webshop of car detailing products. Hundreds of products, several payment options and Facebook Shop synchronization",
+                    "url": "https://afshop.hu",
+                    "CMS": "WordPress"
+                },
+                {
+                    "name": "Micsoda esküvő",
+                    "description": "Portfolio site of a marriage celebrant",
+                    "url": "https://kulonlegesszertartas.hu",
+                    "CMS": "WordPress"
+                },
+                {
+                    "more": "More projects I contributed to: https://brandingpage.hu"
                 }
             ]
         }
