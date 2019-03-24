@@ -1,6 +1,6 @@
 {
     "name": "budavolgyi-balint-cv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "My cli npm package CV",
     "main": "index.js",
     "scripts": {
