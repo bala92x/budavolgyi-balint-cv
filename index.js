@@ -55,21 +55,24 @@ const formatInfo = (info, depth = 0, needsKey = false) => {
 
     return lines.join('');
 };
+const exitHandler = () => {
+    const goodbyeMessage = 'Thank you for your time! I look forward to hearing from you soon.\n\n';
+    return wrap(green, () => goodbyeMessage);
+};
 const resumeHandler = () => {
     inquirer.prompt(resumePrompts).then(answer => {
         if (answer.resumeOptions === 'Exit') {
+            exitHandler();
             return;
         }
 
         if (answer.resumeOptions === 'Photo') {
-            return wrap(green, () => green(photo));
+            wrap(green, () => green(photo));
         }
 
-        const content = resume[answer.resumeOptions]
+        const content = resume[answer.resumeOptions];
 
-        if (content.length == 0 || !content) {
-            wrap(green, () => 'To be uploaded, sorry!');
-        } else {
+        if (typeof content === 'object') {
             wrap(green, () => {
                 let lines = '';
 
@@ -96,6 +99,7 @@ const resumeHandler = () => {
                 if (choice.exitBack == 'Back') {
                     resumeHandler();
                 } else {
+                    exitHandler();
                     return;
                 }
             });
