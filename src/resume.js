@@ -216,11 +216,11 @@ const resume = {
         }
     ],
     "Contact": {
-        "name": "Budavölgyi Bálint",
-        "email": "budavolgyi.balint@gmail.com",
-        "mobile": "+30 20 398 1231",
-        "github": "https://github.com/bala92x/",
-        "former CV (hungarian)": "http://cv.balavel.hu/"
+        "Name": "Budavölgyi Bálint",
+        "Email": "budavolgyi.balint@gmail.com",
+        "Mobile": "+30 20 398 1231",
+        "Github": "https://github.com/bala92x/",
+        "Former CV (hungarian)": "http://cv.balavel.hu/"
     }
 }
 
