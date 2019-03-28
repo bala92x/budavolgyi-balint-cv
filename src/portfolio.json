@@ -3,6 +3,12 @@
         "name": "Open Source",
         "sub-portfolios": [
             {
+                "name": "shor10",
+                "description": "Link shortener app with Meteor and React",
+                "source": "https://github.com/bala92x/shor10",
+                "url": "https://shor10.herokuapp.com/"
+            },
+            {
                 "name": "chat-app",
                 "description": "Simple Node.js based chat app with socket.io integration",
                 "source": "https://github.com/bala92x/chat-app",
