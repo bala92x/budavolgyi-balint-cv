@@ -1,16 +1,17 @@
 const moment = require('moment');
+const getRoundedYears = (years, months) => {
+    if (months < 6) {
+        return years + .5;
+    } else {
+        return ++years;
+    }
+}
 const getDiff = (from) => {
     const yearDiff = moment().diff(from, 'years');
     const monthDiff = moment().diff(from, 'month') - (yearDiff * 12);
-    let diff = '';
+    const roundedYears = getRoundedYears(yearDiff, monthDiff);
 
-    if (yearDiff) {
-        diff += `${yearDiff} year${yearDiff == 1 ? '' : 's'} `;
-    }
-
-    if (monthDiff) {
-        diff += `${monthDiff} month${monthDiff == 1 ? '' : 's'}`;
-    }
+    const diff = `${roundedYears} year${roundedYears <= 1 ? '' : 's'}`;
 
     return diff;
 };
