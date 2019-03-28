@@ -24,7 +24,7 @@ Welcome to my CV!
 
 - [Education](#education)
 - [Experience](#experience)
-- [Tech Stack](#tech-stack)
+- [Dev Skills](#dev-skills)
 - [Portfolio](#portfolio)
 - [Contact](#contact)
 
