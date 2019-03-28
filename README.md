@@ -50,7 +50,7 @@ Welcome to my CV!
   - [https://kameleonline.hu](https://kameleonline.hu)
 - Own side projects - since 2017 January
 
-### Tech Stack
+### Dev Skills
 (years of experience in the installable version)
 
 - Javascript

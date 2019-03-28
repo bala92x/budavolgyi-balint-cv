@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Web development and online marketing certifications",
+        "url": "https://github.com/bala92x/certs"
+    },
+    {
+        "name": "English language exam",
+        "level": "Intermediate",
+        "institute": "BME",
+        "date": "2013"
+    },
+    {
+        "name": "Recreation Management and Health Promotion",
+        "level": "BSc",
+        "institute": "Nyugat Magyarországi Egyetem",
+        "date": "2010 - 2013"
+    },
+    {
+        "name": "Graduation",
+        "institute": "Dr. Mező Ferenc Gimnázium",
+        "date": "2006 - 2010"
+    }
+]
