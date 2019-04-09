@@ -64,6 +64,14 @@ const devSkills = [
             {
                 "name": "Jest",
                 "experience": getDiff('2019-01-05')
+            },
+            {
+                "name": "Webpack",
+                "experience": getDiff('2019-04-01')
+            },
+            {
+                "name": "Redux",
+                "experience": getDiff('2019-04-03')
             }
         ]
     },
@@ -91,6 +99,10 @@ const devSkills = [
             {
                 "name": "MongoDB",
                 "experience": getDiff('2018-11-25')
+            },
+            {
+                "name": "Firebase",
+                "experience": getDiff('2019-04-05')
             }
         ]
     },
@@ -111,6 +123,10 @@ const devSkills = [
                 "experience": getDiff('2018-10-10')
             }
         ]
+    },
+    {
+        "name": "Git",
+        "experience": getDiff('2017-06-03')
     }
 ];
 
