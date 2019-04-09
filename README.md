@@ -22,11 +22,16 @@ I am a junior web developer with experience in planning, building, and maintaini
     
 Welcome to my CV!
 
+- [Screenshot](#screenshot)
 - [Education](#education)
 - [Experience](#experience)
 - [Dev Skills](#dev-skills)
 - [Portfolio](#portfolio)
 - [Contact](#contact)
+
+### Screenshot
+
+![Screenshot of my cli CV](/images/screenshot.png)
 
 ### Education
 
