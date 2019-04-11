@@ -6,7 +6,13 @@
                 "name": "shor10",
                 "description": "Link shortener app with Meteor and React",
                 "source": "https://github.com/bala92x/shor10",
-                "url": "https://shor10.herokuapp.com/"
+                "url": "https://shor10.herokuapp.com"
+            },
+            {
+                "name": "expensify",
+                "description": "Expense manager application with React, Redux, and Firebase",
+                "source": "https://github.com/bala92x/expensify",
+                "demo": "https://bala-expensify.herokuapp.com"
             },
             {
                 "name": "chat-app",
@@ -21,9 +27,10 @@
                 "url": "https://bala-score-keeper.herokuapp.com"
             },
             {
-                "name": "cli-weather-app",
-                "description": "Simple Node.js cli weather app, that gets temperature information about the given location",
-                "source": "https://github.com/bala92x/cli-weather-app"
+                "name": "indecision-app",
+                "description": "Simple decision maker app with React",
+                "source": "https://github.com/bala92x/indecision-app",
+                "demo": "http://bala-indecision-app.herokuapp.com"
             },
             {
                 "name": "task-manager",
