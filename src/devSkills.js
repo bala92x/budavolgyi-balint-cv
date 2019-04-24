@@ -43,11 +43,17 @@ const devSkills = [
             },
             {
                 "name": "React",
-                "experience": getDiff('2018-04-04')
-            },
-            {
-                "name": "React Native",
-                "experience": getDiff('2018-10-12')
+                "experience": getDiff('2018-04-04'),
+                "sub-stack": [
+                    {
+                        "name": "React Native",
+                        "experience": getDiff('2018-10-12')
+                    },
+                    {
+                        "name": "Gatsby",
+                        "experience": getDiff('2019-04-16')
+                    }
+                ]
             },
             {
                 "name": "AngularJS",
@@ -58,20 +64,21 @@ const devSkills = [
                 "experience": getDiff('2018-12-05')
             },
             {
-                "name": "Mocha",
-                "experience": getDiff('2018-12-10')
-            },
-            {
-                "name": "Jest",
-                "experience": getDiff('2019-01-05')
-            },
-            {
-                "name": "Webpack",
-                "experience": getDiff('2019-04-01')
-            },
-            {
-                "name": "Redux",
-                "experience": getDiff('2019-04-03')
+                "name": "Testing",
+                "sub-stack": [
+                    {
+                        "name": "Mocha",
+                        "experience": getDiff('2018-12-10')
+                    },
+                    {
+                        "name": "Jest",
+                        "experience": getDiff('2019-01-05')
+                    },
+                    {
+                        "name": "Enzyme",
+                        "experience": getDiff('2019-04-05')
+                    }
+                ]
             }
         ]
     },
@@ -86,23 +93,6 @@ const devSkills = [
             {
                 "name": "WordPress",
                 "experience": getDiff('2017-07-25')
-            }
-        ]
-    },
-    {
-        "name": "Database",
-        "sub-stack": [
-            {
-                "name": "MySQL",
-                "experience": getDiff('2017-02-20')
-            },
-            {
-                "name": "MongoDB",
-                "experience": getDiff('2018-11-25')
-            },
-            {
-                "name": "Firebase",
-                "experience": getDiff('2019-04-05')
             }
         ]
     },
@@ -125,8 +115,50 @@ const devSkills = [
         ]
     },
     {
-        "name": "Git",
-        "experience": getDiff('2017-06-03')
+        "name": "Databases and Query Languages",
+        "sub-stack": [
+            {
+                "name": "MySQL",
+                "experience": getDiff('2017-02-20')
+            },
+            {
+                "name": "MongoDB",
+                "experience": getDiff('2018-11-25')
+            },
+            {
+                "name": "Firebase",
+                "experience": getDiff('2019-04-05')
+            },
+            {
+                "name": "GraphQL",
+                "experience": getDiff('2019-04-16')
+            }
+        ]
+    },
+    {
+        "name": "Tools, Services, etc.",
+        "sub-stack": [
+            {
+                "name": "Git",
+                "experience": getDiff('2017-06-03')
+            },
+            {
+                "name": "Webpack",
+                "experience": getDiff('2019-04-01')
+            },
+            {
+                "name": "Redux",
+                "experience": getDiff('2019-04-03')
+            },
+            {
+                "name": "Heroku",
+                "experience": getDiff('2018-11-25')
+            },
+            {
+                "name": "Google (Ads, Analytics, Search Console)",
+                "experience": getDiff('2017-03-20')
+            }
+        ]
     }
 ];
 

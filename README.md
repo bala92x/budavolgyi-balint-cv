@@ -65,19 +65,32 @@ Welcome to my CV!
     - Meteor
   - jQuery
   - React
-  - React Native
+    - React Native
+    - Gatsby
   - AngularJS
   - Handlebars
+  - Testing
+    - Mocha
+    - Jest
+    - Enzyme
 - PHP
   - Laravel
   - WordPress
-- Database
-  - MySQL
-  - MongoDB
 - HTML5
 - CSS3
   - Bootstrap
   - SCSS
+- Databases and Query Languages
+  - MySQL
+  - MongoDB
+  - Firebase
+  - GraphQL
+- Tools, Services, etc.
+  - Git
+  - Webpack
+  - Redux
+  - Heroku
+  - Google (Ads, Analytics, Search Console)
 
 ### Portfolio
 
